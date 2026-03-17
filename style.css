@@ -13,8 +13,9 @@ body {
   height: 100vh;
   width: 100vw;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
+  grid-template-areas: "alerts trains";
   gap: 12px;
   padding: 12px;
   background-color: black;
@@ -34,6 +35,7 @@ body {
 }
 
 #listOfIncTrains {
+  grid-area: trains;
   flex: 2 1 0;
 }
 
@@ -86,9 +88,13 @@ p {
   body {
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 1fr;
+    grid-template-areas:
+      "trains"
+      "alerts";
   }
 }
 
 #listOfAlerts {
+  grid-area: alerts;
   flex: 1 1 0;
 }
