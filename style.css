@@ -1,78 +1,51 @@
-
-
-body {
-
-height: 100vh;
-
-
-display: flex;
-flex-direction: column; 
-justify-content: space-between;
-
-  background-color: black;
+* {
+  box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  overflow-x: hidden;
+}
 
-.trainIcon{
-
-padding-left: 30px;
-
+.trainIcon {
+  padding-left: 30px;
 }
 
 p {
-
-color: white;
-
-
+  color: white;
+  margin: 0;
+  word-break: break-word;
 }
 
-
-
-.trainText{
-
-padding-left: 60px;
-
-width: 100vh;
-display: flex;
-justify-content: space-between;
-
-font-family: Arial, Helvetica, sans-serif;
-
-font-size: 2.5rem; 
-
-
-padding-right: 80px;
-
+.trainText {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  min-width: 0;
 }
 
-
-#listOfIncTrains{
-
-
-display: flex;
+#listOfIncTrains {
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex: 1;
 }
 
-
-.member{
-
-
-background-color: grey;
-
-display: flex;
-align-items: center;
-
-
-
-
-position: relative;
-
-
-
+.member {
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  min-width: 0;
 }
-
-
-
 
