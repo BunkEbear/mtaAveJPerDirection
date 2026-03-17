@@ -28,14 +28,7 @@ body {
   gap: 12px;
   overflow: auto;
   min-height: 0;
-}
-
-#listOfIncTrains {
-  flex: 2 1 0;
-}
-
-#listOfAlerts {
-  flex: 1 1 0;
+  flex: 0 0 auto;
 }
 
 p {
@@ -81,4 +74,8 @@ p {
 
 .trainTime {
   white-space: nowrap;
+}
+
+#listOfAlerts {
+  flex-direction: column-reverse;
 }
