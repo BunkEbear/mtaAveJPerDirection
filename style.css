@@ -28,7 +28,11 @@ body {
   gap: 12px;
   overflow: auto;
   min-height: 0;
-  flex: 0 0 auto;
+  flex: 1 1 0;
+}
+
+#listOfIncTrains {
+  flex: 2 1 0;
 }
 
 p {
@@ -77,5 +81,6 @@ p {
 }
 
 #listOfAlerts {
+  flex: 1 1 0;
   flex-direction: column-reverse;
 }
